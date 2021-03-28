@@ -1,0 +1,93 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: aquamarine;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    color: brown;
+    
+}
+.sidenav a:hover {
+    color: rgb(220, 55, 214);
+}
+.main-section {
+    color: brown;
+    list-style-type: none;
+    font-size: 20px;
+}
+#main-doc {
+    margin-left: 250px;
+    background-color: white;
+}
+#nav-head {
+    font-size: 30px;
+    text-align: center;
+    color: mediumblue;
+}
+ul {
+    list-style-type: none;
+}
+@media screen and (max-height: 500px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+@viewport {
+    width: 100vw;
+}
+#demon_hunter {
+    color: purple;
+}
+#mage {
+    color: rgb(109, 199, 230);
+}
+#priest {
+    color: rgb(195, 201, 202);
+}
+#paladin {
+    color: palevioletred;
+}
+#rogue {
+    color: rgb(255, 247, 0);
+}
+#warrior {
+    color: brown;
+}
+#shaman {
+    color: blue;
+}
+#death_knight {
+    color: black;
+}
+#druid {
+    color: orange;
+}
+#hunter {
+    color: green;
+}
+#warlock {
+    color: purple;
+}
+#monk {
+    color: teal;
+}
+#a1 {
+    color: rgb(109, 199, 230);
+}
+#a2 {
+    color: purple;
+}
